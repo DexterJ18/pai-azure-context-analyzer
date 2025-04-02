@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "blobIn",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "images/{imageName}",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "scriptFile": "index.js"
+}

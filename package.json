@@ -1,5 +1,13 @@
 {
+  "name": "azure-function-app",
+  "version": "1.0.0",
+  "description": "Azure Function App with HTTP and Blob Trigger",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  },
   "dependencies": {
-    "axios": "^1.8.4"
+    "axios": "^1.6.0",
+    "@azure/storage-blob": "^12.16.0"
   }
 }
